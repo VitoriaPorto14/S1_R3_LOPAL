@@ -67,21 +67,21 @@ Abaixo estão explicados os principais comandos e estruturas que dão vida a ess
 
 ## Estruturas Condicionais
 
-- **`if` / `elif` / `else**`: Estruturas de decisão. O `if` testa uma condição inicial; o `elif` (abreviação de *else if*) testa uma nova condição caso a primeira seja falsa; e o `else` é o caminho padrão executado se nenhuma das condições anteriores for atendida.
+- **`if` / `elif` / `else`**: Estruturas de decisão. O `if` testa uma condição inicial; o `elif` (abreviação de *else if*) testa uma nova condição caso a primeira seja falsa; e o `else` é o caminho padrão executado se nenhuma das condições anteriores for atendida.
 
 ## Entrada, Saída e Manipulação de Dados
 
 - **`input("...")`**: Exibe uma mensagem na tela e aguarda o usuário digitar algum dado. Por padrão, ele sempre lê o dado como texto (string).
 - **`print(...)`**: Exibe informações, textos ou resultados de variáveis no terminal.
 - **`f"Texto {variavel}"` (f-strings)**: Permite incluir variáveis diretamente dentro de um texto usando chaves `{}`, facilitando muito a formatação da mensagem.
-- **`int(...)` e `float(...)**`: Convertem um dado para o tipo **Inteiro** (números sem vírgula) ou **Flutuante** (números reais, com casas decimais), respectivamente. São muito usados junto com o `input()`.
+- **`int(...)` e `float(...)`**: Convertem um dado para o tipo **Inteiro** (números sem vírgula) ou **Flutuante** (números reais, com casas decimais), respectivamente. São muito usados junto com o `input()`.
 
 ## Operadores Matemáticos e de Comparação
 
 - **`%` (Módulo)**: Retorna o resto da divisão entre dois números. Muito usado para saber se um número é par (`numero % 2 == 0`).
-- **`*=` / `+=**`: Operadores de atribuição compacta. `fat *= x` é o mesmo que `fat = fat * x`.
-- **`==` / `!=**`: Operadores de comparação. `==` verifica se dois valores são iguais; `!=` verifica se são diferentes.
-- **`and` / `or**`: Operadores lógicos. O `and` exige que **todas** as condições sejam verdadeiras; o `or` exige que **pelo menos uma** seja verdadeira.
+- **`*=` / `+=`**: Operadores de atribuição compacta. `fat *= x` é o mesmo que `fat = fat * x`.
+- **`==` / `!=`**: Operadores de comparação. `==` verifica se dois valores são iguais; `!=` verifica se são diferentes.
+- **`and` / `or`**: Operadores lógicos. O `and` exige que **todas** as condições sejam verdadeiras; o `or` exige que **pelo menos uma** seja verdadeira.
 
 ## Funções Nativas de Strings e Listas
 
