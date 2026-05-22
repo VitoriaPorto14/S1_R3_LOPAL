@@ -2,33 +2,71 @@
 
 ## Exercício 1
 
+- **O que foi proposto:** Faça um algoritmo usando o for para mostrar os números pares e impares de 0 a 100.
+
 - **O que faz:** Percorre os números de 0 a 100 e identifica se cada um deles é **par** ou **ímpar**, exibindo o resultado na tela.
 
 ## Exercício 2
+
+- **O que foi proposto:** Escreva um script que leia três números e mostre o maior e o menor deles. Use Lista.
 
 - **O que faz:** Pede ao usuário para digitar três números e os armazena em uma lista. O programa simula um tempo de processamento de 2 segundos e, em seguida, varre a lista para encontrar e exibir qual é o **maior** e qual é o **menor** número digitado.
 
 ### Exercício 3
 
+- **O que foi proposto:** Faça um algoritmo que imprima o nome digitado pelo usuário na vertical em escada.
+
+Exemplo:
+F
+FU
+FUL
+FULA
+FULAN
+FULANO
+
 - **O que faz:** Solicita o nome do usuário e o imprime em formato de **"escada"** ou pirâmide crescente. Ele começa mostrando apenas a primeira letra, depois as duas primeiras, as três primeiras, e assim por diante, até mostrar o nome completo.
 
 ## Exercício 4
+
+- **O que foi proposto:** A série de Fibonacci é formada pela seqüência 1,1,2,3,5,8,13,21,34,55,... (o próximo termo, a partir do terceiro (número 2), é sempre gerado a partir do somatório dos últimos dois). Faça um programa capaz de gerar a série até o n−ésimo termo (onde o valor n deve ser inserido pelo usuário).
 
 - **O que faz:** Gera e exibe a **Sequência de Fibonacci** até o número de termos ($n$) que o usuário escolher. A sequência começa com 1 e 1, e cada termo seguinte é a soma dos dois anteriores (1, 1, 2, 3, 5, 8...).
 
 ## Exercício 5
 
+- **O que foi proposto:** Faça um programa que leia e valide as seguintes informações:
+- Nome: maior que 3 caracteres;
+- Idade: entre 0 e 150;
+- Salário: maior que zero;
+- Sexo: 'f' ou 'm';
+- Estado Civil: 's', 'c', 'v', 'd';
+
 - **O que faz:** Um sistema de **validação de cadastro**. Ele solicita o nome (mínimo 4 caracteres), idade (entre 0 e 150), salário (maior que zero), sexo ('f' ou 'm') e estado civil ('s', 'c', 'v' ou 'd'). Se o usuário digitar algo incorreto, o programa entra em um loop e exige que o dado seja digitado novamente de forma correta. No final, exibe o comprovante do cadastro formatado.
 
 ## Exercício 6
+
+- **O que foi proposto:** Faça um programa que peça um número inteiro e determine se ele é ou não um número primo. Um número primo é aquele que é divisível somente por ele mesmo e por 1.
+Dica: Utilize o operador aritmético `%`, que retorna o resto da divisão de dois números.
 
 - **O que faz:** Verifica se um número inteiro digitado pelo usuário é um **número primo** (ou seja, se ele é divisível apenas por 1 e por ele mesmo). O código testa divisões do número por todos os valores menores que ele.
 
 ## Exercício 7
 
+- **O que foi proposto:** Faça um algoritmo utilizando o laço FOR que descreva o Fatorial de um número digitado pelo usuário.
+
 - **O que faz:** Calcula o **fatorial** de um número inteiro digitado pelo usuário. O fatorial é a multiplicação desse número por todos os seus antecessores inteiros positivos (por exemplo, $5! = 5 \times 4 \times 3 \times 2 \times 1 = 120$).
 
 ## Exercício 8
+
+- **O que foi proposto:** Dada a lista
+L = [5, 7, 2, 9, 4, 1, 3]
+Escreva um programa que imprima as seguintes informações:
+a) tamanho da lista.
+b) maior valor da lista.
+c) menor valor da lista.
+d) soma de todos os elementos da lista.
+e) lista em ordem crescente.
+f) lista em ordem decrescente.
 
 - **O que faz:** Realiza várias operações sobre uma lista de números pré-definida `L = [5, 7, 2, 9, 4, 1, 3]`:
 - **A)** Descobre o tamanho (quantidade de elementos).
@@ -42,13 +80,20 @@
 
 ## Exercício 9
 
+- **O que foi proposto:** Dada a tabela em anexo , crie um dicionário que a represente. 
+![Fluxograma 01](Exercicio1.png)
+
 - **O que faz:** Cria e exibe um **dicionário** chamado `lanchonete`, onde os nomes dos produtos (chaves) estão associados aos seus respectivos preços (valores).
 
 ## Exercício 10
 
+- **O que foi proposto:** Utilizando o laço While faça um programa que peça uma senha ao usuário, e que imprima "Acesso liberado" apenas se o usuário digitar a senha corretamente. A senha devera ser a seguinte senha númerica : "676767".
+
 - **O que faz:** Simula um sistema de **verificação de senha**. O programa fica preso em um loop pedindo a senha. Se o usuário errar, aparece "Senha incorreta! Digite novamente". Se acertar a senha gravada (`"676767"`), exibe "Acesso autorizado!" e encerra o programa.
 
 ## Exercício 11
+
+- **O que foi proposto:** Escreva um programa que peça um número de 1 a 10, e mostre a tabuada desse número.
 
 - **O que faz:** Cria uma **tabuada** automatizada. O usuário digita um número de 1 a 10. Se estiver dentro do intervalo, o programa calcula e mostra a tabuada de 0 a 10 desse número. Caso contrário, exibe uma mensagem de erro.
 
