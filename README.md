@@ -80,8 +80,9 @@ f) lista em ordem decrescente.
 
 ## Exercício 9
 
-- **O que foi proposto:** Dada a tabela em anexo , crie um dicionário que a represente. 
-![Fluxograma 01](Exercicio1.png)
+- **O que foi proposto:** Dada a tabela em anexo , crie um dicionário que a represente.
+
+![Tabela_01](dicionario_LOPAL.png)
 
 - **O que faz:** Cria e exibe um **dicionário** chamado `lanchonete`, onde os nomes dos produtos (chaves) estão associados aos seus respectivos preços (valores).
 
